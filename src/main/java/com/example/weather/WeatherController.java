@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/weather")
-@CrossOrigin(origins ="http://localhost:3000")
+@CrossOrigin(origins ="https://weatherapp-bkb7.onrender.com")
 public class WeatherController {
 	
 	
